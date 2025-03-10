@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "frikandelspeciaal",
+	"version": "${version}",
+	"name": "FrikandelSpeciaal",
+	"description": "This is a mod that let's you make Frikandel Speciaal!",
+	"authors": [
+		"Koelekikkers.nl"
+	],
+	"contact": {
+		"homepage": "https://koelekikkers.nl/",
+		"sources": "https://github.com/wridzer/MC_Frikandel_speciaal_mod.git"
+	},
+	"license": "MIT",
+	"icon": "assets/frikandelspeciaal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"koelekikkers.frikandelspeciaal.FrikandelSpeciaal"
+		],
+		"fabric-datagen": [
+			"koelekikkers.frikandelspeciaal.FrikandelSpeciaalDataGenerator"
+		],
+		"client": [
+			"koelekikkers.frikandelspeciaal.FrikandelSpeciaalClient"
+		]
+	},
+	"mixins": [
+		"frikandelspeciaal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

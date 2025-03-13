@@ -1,10 +1,10 @@
 package koelekikkers.frikandelspeciaal;
 
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 
-public class FrikandelSpeciaalClient implements ModInitializer {
+public class FrikandelSpeciaalClient implements ClientModInitializer {
     @Override
-    public void onInitialize() {
+    public void onInitializeClient() {
         System.out.println("Hello Fabric world! (client)");
     }
     

@@ -1,0 +1,31 @@
+items
+- Frikandel rauw
+- Frikandel gebakken
+- Mayo
+- Ui
+- Chopped ui
+- Tomaat zaadjes
+- Tomaat
+- Ketchup
+- Kerrie poeder
+- Curry
+- Frikandel speciaal
+
+blocks
+ui groeien
+tomaat groeien
+
+recepies
+- ei -> mayo
+- ui -> chopped ui
+- tomaat -> ketchup
+- ketchup + kerrie poeder -> curry
+- frikandel + chopped ui + mayo + curry -> frikandel speciaal
+- Frikandel bakken in oven
+
+other
+- paard dropt frikandel
+- tomaatzaad en ui farmen
+- kerriepoeder drop
+- tomaat en ui planten spawnen
+- eten kan je eten
